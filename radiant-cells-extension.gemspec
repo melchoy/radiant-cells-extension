@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   # Define gem dependencies here.
   # Don't include a dependency on radiant itself: it causes problems when radiant is in vendor/radiant.
-  s.add_dependency 'cells', '3.3.4'
+  s.add_dependency 'cells', '3.3.9'
   # s.add_dependency "radiant-some-extension", "~> 1.0.0"
 
   ignores = if File.exist?('.gitignore')
